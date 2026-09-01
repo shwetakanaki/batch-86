@@ -6,7 +6,7 @@ pipeline {
 stages {
         stage('build') {
             steps {
-             sh 'touc demo.py' 
+             sh 'touch demo.py' 
             }
         }
 
