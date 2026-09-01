@@ -6,7 +6,7 @@ pipeline {
 stages {
         stage('build') {
             steps {
-             sh touch demo.py 
+             sh 'touch demo.py' 
             }
         }
 
